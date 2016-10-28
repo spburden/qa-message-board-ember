@@ -1,11 +1,7 @@
 <div class="container">
   <ul class="list-group">
     {{#each model as |question|}}
-      <div class="well">
-        <h4><strong>{{question.details}}</strong></h4>
-        <p><strong>Notes: </strong>{{question.notes}}</p>
-        <p>User: <i>{{question.author}}</i></p>
-      </div>
+      {{question-tile question=question}}
     {{/each}}
   </ul>
 </div>
