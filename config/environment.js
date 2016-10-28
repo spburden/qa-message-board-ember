@@ -16,6 +16,13 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    
+    firebase: {
+      apiKey: "AIzaSyCRFuGKrx17En0P-J5JRvH4UZC8TEivGDo",
+      authDomain: "qa-message-board-2a287.firebaseapp.com",
+      databaseURL: "https://qa-message-board-2a287.firebaseio.com",
+      storageBucket: "qa-message-board-2a287.appspot.com"
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
