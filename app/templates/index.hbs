@@ -1,5 +1,7 @@
 <div class="container">
+  {{new-question saveQuestion="saveQuestion"}}
   <ul class="list-group">
+    <h2>Questions</h2>
     {{#each model as |question|}}
       {{question-tile question=question}}
     {{/each}}
