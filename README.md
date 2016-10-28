@@ -7,9 +7,9 @@
 ## Specifications
 | Behavior | Input Example | Output Example |
 | --- | --- | --- |
-| Take a question entry and display it back to user | What is the weather going to be like today?, Need to know by 8am, Steven Gerrard | Question: What is the weather going to be like today?, Additional Information: Need to know by 8am, Author: Steven Gerrard |
+| Take a question entry and display it back to user | What is the weather going to be like today?, Need to know by 8am, Steven Gerrard | Question: What is the weather going to be like today?, Notes: Need to know by 8am, Author: Steven Gerrard |
 | Take an answer entry for a question | It's going to raining most of the day, Jurgen Klopp | Answer: It's going to raining most of the day, Author: Jurgen Klopp |
-| Edit a question entry | Additional Information: Need to know by 8am -> Need to know by 9am | Question: What is the weather going to be like today?, Additional Information: Need to know by 9am, Author: Steven Gerrard |
+| Edit a question entry | Notes: Need to know by 8am -> Need to know by 9am | Question: What is the weather going to be like today?, Notes: Need to know by 9am, Author: Steven Gerrard |
 
 
 ## Prerequisites

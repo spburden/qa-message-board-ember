@@ -1,0 +1,7 @@
+ember new project
+npm install
+bower install
+ember g template application
+ember g route index
+installing ember-bootstrap
+ember-cli-build add: app.import('bower_components/bootstrap/dist/js/bootstrap.min.js');
