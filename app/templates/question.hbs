@@ -5,4 +5,13 @@
     {{update-question question=model updateQuestion="updateQuestion"}}
   </div>
     {{add-answer question=model saveAnswer="saveAnswer"}}
+
+    {{#if model.answers}}
+      <h2>Answers</h2>
+      {{#each model.answers as |answer|}}
+        {{answer-tile answer=answer}}
+      {{/each}}
+    {{else}}
+      <h3>No Answers Yet!</h3>
+    {{/if}}
 </div>
