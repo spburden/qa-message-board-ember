@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://images.unsplash.com/photo-1460804198264-011ca89eaa43');
+  background-image: url('/assets/images/stars.png');
   background-size: cover;
   background-attachment: fixed;
   text-shadow: 1px 1px grey;
@@ -13,22 +13,18 @@ body {
     opacity: .9;
   }
   a {
-    color: yellow;
-  }
-  a:hover {
-    color: #01a3ec;
-  }
-  .panel {
     color: white;
   }
+  a:hover {
+    color: yellow;
+  }
 }
-
 body, h2, h3, h4, .item {
   font-family: 'Oswald', sans-serif;
   font-size: 120%;
 }
 
-.tog {
+.tog, .panel {
   color: white !important;
 }
 .center {
@@ -38,9 +34,8 @@ body, h2, h3, h4, .item {
   position: absolute;
   font-size: 30px;
 }
-
 .pusher {
-  background-image: url('https://images.unsplash.com/photo-1460804198264-011ca89eaa43') !important;
+  background-image: url('/assets/images/stars.png');
   background-size: cover !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
