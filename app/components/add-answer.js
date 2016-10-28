@@ -12,7 +12,8 @@ export default Ember.Component.extend({
     saveAnswer() {
       var params = {
         comment: this.get('comment'),
-        author: this.get('author')
+        author: this.get('author'),
+        question: this.get('question')
       };
       this.set('addNewAnswer', false);
       this.sendAction('saveAnswer', params);
