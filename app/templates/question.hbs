@@ -1,16 +1,19 @@
 <div class="container">
+  <h3>Question:</h3>
   <div class="well">
     {{question-detail question=model destroyQuestion="destroyQuestion"}}
     <br>
     {{update-question question=model updateQuestion="updateQuestion"}}
   </div>
     {{add-answer question=model saveAnswer="saveAnswer"}}
-
+    <br>
     {{#if model.answers}}
-      <h2>Answers</h2>
-      {{#each model.answers as |answer|}}
-        {{answer-tile answer=answer}}
-      {{/each}}
+      <div class="panel panel-warning">
+        <div class="panel-heading">Answers</div>
+          {{#each model.answers as |answer|}}
+            <div class="panel-body">{{answer-tile answer=answer}}</div>
+          {{/each}}
+      </div>
     {{else}}
       <h3>No Answers Yet!</h3>
     {{/if}}
