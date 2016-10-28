@@ -1,5 +1,13 @@
 <div class="well" id="title-well">
-  <h2>Got Questions?!</h2>
-  <a href="/" class="btn btn-primary">Home</a>
+  <button class="btn btn-info" {{action 'toggleSidebar'}}>{{fa-icon "fa-bars"}} Menu</button><span><h2>Got Questions?!</h2></span>
 </div>
 {{outlet}}
+
+<div class="ui sidebar inverted vertical menu">
+  <a class="item">
+    {{#link-to 'index'}}Home{{/link-to}}
+  </a>
+</div>
+<div class="pusher">
+  <!-- Site content !-->
+</div>
