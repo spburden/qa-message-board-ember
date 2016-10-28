@@ -16,7 +16,10 @@ module.exports = function(environment) {
         Date: false
       }
     },
-    
+    googleFonts: [
+     'Exo',
+     'Slabo 27px'
+    ],
     firebase: {
       apiKey: "AIzaSyCRFuGKrx17En0P-J5JRvH4UZC8TEivGDo",
       authDomain: "qa-message-board-2a287.firebaseapp.com",

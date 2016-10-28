@@ -1,13 +1,20 @@
-<div class="well" id="title-well">
-  <button class="btn btn-info" {{action 'toggleSidebar'}}>{{fa-icon "fa-bars"}} Menu</button><span><h2>Got Questions?!</h2></span>
-</div>
-{{outlet}}
-
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+   <div class="navbar-header">
+     <a class="navbar-brand tog" href=""
+       {{action 'toggleSidebar'}}>{{fa-icon "fa-bars"}}
+     </a>
+     <a class="navbar-brand center" href="/">
+       Got Questions?!
+     </a>
+   </div>
+ </div>
+</nav>
 <div class="ui sidebar inverted vertical menu">
-  <a class="item">
-    {{#link-to 'index'}}Home{{/link-to}}
+  <a href="/" class="item">Home
   </a>
 </div>
 <div class="pusher">
-  <!-- Site content !-->
+  <br><br><br><br>
+    {{outlet}}
 </div>

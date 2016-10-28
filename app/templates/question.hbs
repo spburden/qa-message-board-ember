@@ -8,7 +8,7 @@
     {{add-answer question=model saveAnswer="saveAnswer"}}
     <br>
     {{#if model.answers}}
-      <div class="panel panel-warning">
+      <div class="panel panel-warning panel-transparent">
         <div class="panel-heading">Answers</div>
           {{#each model.answers as |answer|}}
             <div class="panel-body">{{answer-tile answer=answer}}</div>

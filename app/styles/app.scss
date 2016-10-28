@@ -1,1 +1,47 @@
-@import "font-awesome";
+body {
+  background-image: url('https://images.unsplash.com/photo-1460804198264-011ca89eaa43');
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px grey;
+  .well {
+    background-color: rgba(255,0,0, 0.2);
+  }
+  .panel-transparent {
+    background-color: rgba(252,248,227, 0.2);
+  }
+  .panel-warning {
+    opacity: .9;
+  }
+  a {
+    color: yellow;
+  }
+  a:hover {
+    color: #01a3ec;
+  }
+  .panel {
+    color: white;
+  }
+}
+
+body, h2, h3, h4, .item {
+  font-family: 'Oswald', sans-serif;
+  font-size: 120%;
+}
+
+.tog {
+  color: white !important;
+}
+.center {
+  color: yellow !important;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  font-size: 30px;
+}
+
+.pusher {
+  background-image: url('https://images.unsplash.com/photo-1460804198264-011ca89eaa43') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
