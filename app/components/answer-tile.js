@@ -6,13 +6,13 @@ export default Ember.Component.extend({
       var params = {
         score: answer.get('score') + 1
       };
-      this.sendAction('upvote', answer, params);
+      this.sendAction('updateAnswer', answer, params);
     },
-    // downvote(answer) {
-    //   var params = {
-    //     score: (this.get('score') - 1)
-    //   };
-    //   this.sendAction('downvote', answer);
-    // },
+    downvote(answer) {
+      var params = {
+        score: answer.get('score') - 1
+      };
+      this.sendAction('updateAnswer', answer, params);
+    },
   }
 });

@@ -29,7 +29,7 @@ export default Ember.Route.extend({
       });
       this.transitionTo('question', question);
     },
-    upvote(answer, params) {
+    updateAnswer(answer, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key] !== undefined) {
           answer.set(key, params[key]);

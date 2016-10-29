@@ -11,7 +11,7 @@
       <div class="panel panel-warning panel-transparent">
         <div class="panel-heading">Answers</div>
           {{#each model.answers as |answer|}}
-            <div class="panel-body">{{answer-tile answer=answer upvote="upvote" downvote="downvote"}}</div>
+            <div class="panel-body">{{answer-tile answer=answer updateAnswer="updateAnswer"}}</div>
           {{/each}}
       </div>
     {{else}}
