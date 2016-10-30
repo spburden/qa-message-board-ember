@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'question-board',
+    modulePrefix: 'qa-message-board-ember',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -50,8 +50,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.locationType = 'hash';
-    ENV.rootURL = '/question-board/';
+
   }
 
   return ENV;

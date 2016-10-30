@@ -24,7 +24,7 @@ You will need the following things properly installed on your computer.
 ## Setup/Installation Requirements
 * _In the Terminal enter the following commands:_
   * `git clone https://github.com/spburden/qa-message-board-ember`
-  * `cd question-board`
+  * `cd <PROJECT-DIRECTORY>`
   * `npm install`
   * `bower install`
   * `ember serve`
