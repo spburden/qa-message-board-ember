@@ -16,7 +16,7 @@ module.exports = function(environment) {
         Date: false
       }
     },
-    
+
     firebase: {
       apiKey: "AIzaSyCRFuGKrx17En0P-J5JRvH4UZC8TEivGDo",
       authDomain: "qa-message-board-2a287.firebaseapp.com",
@@ -52,7 +52,6 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.locationType = 'hash';
     ENV.rootURL = '/question-board/';
-
   }
 
   return ENV;
