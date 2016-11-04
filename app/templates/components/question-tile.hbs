@@ -15,6 +15,7 @@
       <p>User: <i>{{question.author}}</i></p>
       <p>{{date-display question.date interval=1000}}</p>
       <p>{{answer-quantity question.answers.length}}</p>
+      {{most-popular mostPopularQs question}}
     </div>
   {{/each}}
 </ul>
