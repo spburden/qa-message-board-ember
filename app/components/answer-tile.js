@@ -15,5 +15,6 @@ export default Ember.Component.extend({
       };
       this.sendAction('updateAnswer', answer, params);
     },
+  
   }
 });
