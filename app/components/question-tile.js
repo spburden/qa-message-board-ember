@@ -7,12 +7,11 @@ export default Ember.Component.extend({
   sortedQuestions: Ember.computed.sort('model.questions', 'sortDefinition'),
 
   actions: {
-    sortFilter(params){
+    sortFilter(params) {
       this.set('sortDefinition', [params]);
     },
-    faveQuestion(question){
+    faveQuestion(question) {
       this.get('qaCart').add(question);
-      console.log(this.get('qaCart.questions'));
     }
   }
 });

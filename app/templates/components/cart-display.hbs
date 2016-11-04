@@ -1,7 +1,11 @@
-<h3>Favorite Questions</h3>
-<hr>
-<ol>
-  {{#each qaCart.questions as |question| }}
-    <li>{{#link-to 'question' question.id}}{{question.details}}{{/link-to}}</li>
-  {{/each}}
-</ol>
+{{#if qaCart.questions}}
+  <div class="item">
+    <h3>Favorite Questions</h3>
+    <hr>
+    <ol>
+      {{#each qaCart.questions as |question| }}
+        <li>{{#link-to 'question' question.id}}{{question.details}}{{/link-to}}</li>
+      {{/each}}
+    </ol>
+  </div>
+{{/if}}
