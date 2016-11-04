@@ -54,7 +54,8 @@
       "author" : "Steven Gerrard",
       "details" : "What will the whether be like today?",
       "notes" : "Need to know by 8am.",
-      "date": 1478282899446
+      "date": 1478282899446,
+      "category": "Sports"
     },
     "2" : {
       "answers" : {
@@ -63,7 +64,8 @@
       "author" : "Jennifer Jones",
       "details" : "Why is the sky blue?",
       "notes" : "I'm a astronomy student and need to figure this out!",
-      "date" : 1478282899446
+      "date" : 1478282899446,
+      "category": "Sports"
     },
     "-KVLxpqLtOIwy5EEopKo" : {
       "answers" : {
@@ -73,13 +75,15 @@
       "author" : "asdads",
       "details" : "dasdsa",
       "notes" : "asdsda",
-      "date" : 1478282499446
+      "date" : 1478282499446,
+      "category": "Science"
     },
     "-KVLxwvBgKnJwRCAKkxI" : {
       "author" : "TEST",
       "details" : "TEST",
       "notes" : "YES",
-      "date" : 1478182899446
+      "date" : 1478182899446,
+      "category": "Science"
     }
   }
 }
