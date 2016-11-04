@@ -9,7 +9,7 @@
     <br>
     {{#if model.answers}}
       <div class="panel panel-warning panel-transparent">
-        <div class="panel-heading">Answers: There are {{model.answers.length}} answers!</div>
+        <div class="panel-heading">Answers: {{answer-quantity model.answers.length}}</div>
             <div class="panel-body">{{answer-list answers=model.answers updateAnswer="updateAnswer"}}</div>
         </div>
     {{else}}
