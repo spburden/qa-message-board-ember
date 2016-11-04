@@ -1,0 +1,6 @@
+<h2>Favorite Questions</h2>
+<ul>
+  {{#each qaCart.questions as |question| }}
+    {{#link-to 'question' question.id}}{{question.details}}{{/link-to}}
+  {{/each}}
+</ul>
