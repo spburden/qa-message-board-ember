@@ -10,9 +10,9 @@
   <option value="science">Science</option>
 </select>
 {{#if science}}
-  {{sorted-questions sortedQuestions=scienceSort}}
+  {{sorted-questions model=scienceSort}}
 {{else if sports}}
-  {{sorted-questions sortedQuestions=sportsSort}}
+  {{sorted-questions model=sportsSort}}
 {{else}}
-  {{sorted-questions sortedQuestions=sortedQuestions}}
+  {{sorted-questions model=sortedQuestions}}
 {{/if}}

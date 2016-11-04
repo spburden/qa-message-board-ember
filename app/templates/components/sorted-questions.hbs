@@ -1,5 +1,5 @@
 <ul class="list-group">
-  {{#each sortedQuestions as |question|}}
+  {{#each model as |question|}}
     <div class="well">
       <h4><strong>{{#link-to 'question' question.id}}{{question.details}}{{/link-to}}     </strong><button class="btn-xs btn-success" {{action 'faveQuestion' question}}><i class="fa fa-star-o"></i></button></h4>
       <p>Category: {{question.category}}</p>
