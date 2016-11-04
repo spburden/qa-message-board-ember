@@ -1,17 +1,17 @@
 <label>Sort by</label>
 <select onchange={{action 'sortFilter' value='target.value'}}>
   <option value="answers.length:desc">Most Answers</option>
-  <option value="answers.length:asc">Least Answers</option>
+  <option value="answers.length">Least Answers</option>
   <option value="details">Question (A-Z)</option>
   <option value="details:desc">Question (Z-A)</option>
-  <option value="author:asc">Author (A-Z)</option>
+  <option value="author">Author (A-Z)</option>
   <option value="author:desc">Author (Z-A)</option>
 </select>
 
 <ul class="list-group">
   {{#each sortedQuestions as |question|}}
   <div class="well">
-    {{#link-to 'question' question.id}}<h4><strong>{{question.details}}</strong></h4>{{/link-to}}
+    <h4><strong>{{#link-to 'question' question.id}}{{question.details}}{{/link-to}}     </strong><button class="btn-xs btn-success" {{action 'faveQuestion' question}}><i class="fa fa-star-o"></i></button></h4>
     <p>User: <i>{{question.author}}</i></p>
     <p>{{answer-quantity question.answers.length}}</p>
   </div>
