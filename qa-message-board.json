@@ -1,0 +1,85 @@
+{
+  "answers" : {
+    "-KVM-DssjwmcM2nuRbyO" : {
+      "author" : "God",
+      "comment" : "RAIN!",
+      "question" : "0",
+      "score" : -1
+    },
+    "-KVM-Hb9vS9un7qNnQVP" : {
+      "author" : "Nobody",
+      "comment" : "Sun",
+      "question" : "0",
+      "score" : -1
+    },
+    "-KVR1ObmA85uqqX9S2LV" : {
+      "author" : "asdf",
+      "comment" : "asdf",
+      "question" : "-KVLxpqLtOIwy5EEopKo",
+      "score" : 7
+    },
+    "-KVR1RCs2vKcwfll80B9" : {
+      "author" : "asdfssss",
+      "comment" : "asdfsss",
+      "question" : "-KVLxpqLtOIwy5EEopKo",
+      "score" : 7
+    },
+    "-KVjwUOZ9JHgFdJ3OHsN" : {
+      "author" : "Duh",
+      "comment" : "It's green",
+      "question" : "2",
+      "score" : 0
+    },
+    "-KVk-tJdy6Ykg9B3O7Y_" : {
+      "author" : "oij",
+      "comment" : "ijioj",
+      "question" : "0",
+      "score" : -1
+    },
+    "-KVk-ujKV1UBOIYOCePO" : {
+      "author" : "oijdsffsfd",
+      "comment" : "ijiojsdfsdf",
+      "question" : "0",
+      "score" : 6
+    }
+  },
+  "questions" : {
+    "0" : {
+      "answers" : {
+        "-KVM-DssjwmcM2nuRbyO" : true,
+        "-KVM-Hb9vS9un7qNnQVP" : true,
+        "-KVk-tJdy6Ykg9B3O7Y_" : true,
+        "-KVk-ujKV1UBOIYOCePO" : true
+      },
+      "author" : "Steven Gerrard",
+      "details" : "What will the whether be like today?",
+      "notes" : "Need to know by 8am.",
+      "date": 1478282899446
+    },
+    "2" : {
+      "answers" : {
+        "-KVjwUOZ9JHgFdJ3OHsN" : true
+      },
+      "author" : "Jennifer Jones",
+      "details" : "Why is the sky blue?",
+      "notes" : "I'm a astronomy student and need to figure this out!",
+      "date" : 1478282899446
+    },
+    "-KVLxpqLtOIwy5EEopKo" : {
+      "answers" : {
+        "-KVR1ObmA85uqqX9S2LV" : true,
+        "-KVR1RCs2vKcwfll80B9" : true
+      },
+      "author" : "asdads",
+      "details" : "dasdsa",
+      "notes" : "asdsda",
+      "date" : 1478282499446
+    },
+    "-KVLxwvBgKnJwRCAKkxI" : {
+      "author" : "TEST",
+      "details" : "TEST",
+      "notes" : "YES",
+      "date" : 1478182899446
+    }
+  }
+}

@@ -10,10 +10,11 @@
 
 <ul class="list-group">
   {{#each sortedQuestions as |question|}}
-  <div class="well">
-    <h4><strong>{{#link-to 'question' question.id}}{{question.details}}{{/link-to}}     </strong><button class="btn-xs btn-success" {{action 'faveQuestion' question}}><i class="fa fa-star-o"></i></button></h4>
-    <p>User: <i>{{question.author}}</i></p>
-    <p>{{answer-quantity question.answers.length}}</p>
-  </div>
+    <div class="well">
+      <h4><strong>{{#link-to 'question' question.id}}{{question.details}}{{/link-to}}     </strong><button class="btn-xs btn-success" {{action 'faveQuestion' question}}><i class="fa fa-star-o"></i></button></h4>
+      <p>User: <i>{{question.author}}</i></p>
+      <p>{{date-display question.date interval=1000}}</p>
+      <p>{{answer-quantity question.answers.length}}</p>
+    </div>
   {{/each}}
 </ul>

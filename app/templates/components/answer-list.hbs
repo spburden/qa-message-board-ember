@@ -1,3 +1,5 @@
-{{#each sortedAnswers as |answer|}}
+{{!-- {{#each sortedAnswers as |answer|}}
   {{answer-tile answer=answer updateAnswer="updateAnswer"}}
-{{/each}}
+{{/each}} --}}
+
+{{answer-tile sortedAnswers=sortedAnswers updateAnswer="updateAnswer"}}

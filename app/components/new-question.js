@@ -13,7 +13,8 @@ export default Ember.Component.extend({
       var params = {
         details: this.get('details'),
         notes: this.get('notes'),
-        author: this.get('author')
+        author: this.get('author'),
+        date: new Date().getTime()
       };
       this.set('addNewQuestion', false);
       this.sendAction('saveQuestion', params);
