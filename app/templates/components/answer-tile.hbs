@@ -1,7 +1,7 @@
 {{#each sortedAnswers as |answer|}}
   <h5><strong>{{answer.comment}}</strong></h5>
   <p>User: <i>{{answer.author}}</i></p>
-  <p>Score: {{answer.score}}{{best-answer sortedAnswers answer}}</p>
+  <p>Score: {{answer.score}}  {{answer-quality answer.score}}{{best-answer sortedAnswers answer}}</p>
   <button class="btn btn-success btn-xs" {{action "upvote" answer}}>+</button>
   <button class="btn btn-danger btn-xs" {{action "downvote" answer}}>-</button>
 {{/each}}
