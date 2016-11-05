@@ -10,7 +10,10 @@
 | Take a question entry and display it back to user | What is the weather going to be like today?, Need to know by 8am, Steven Gerrard | Question: What is the weather going to be like today?, Notes: Need to know by 8am, Author: Steven Gerrard |
 | Take an answer entry for a question | It's going to raining most of the day, Jurgen Klopp | Answer: It's going to raining most of the day, Author: Jurgen Klopp |
 | Edit a question entry | Notes: Need to know by 8am -> Need to know by 9am | Question: What is the weather going to be like today?, Notes: Need to know by 9am, Author: Steven Gerrard |
-
+| Store Favorite Questions | Question: What is the weather going to be like today? | Favorites: What is the weather going to be like today? |
+| Upvote or Downvote Answers | UPVOTE: Answer: Raining, Score: 1 | Answer: Raining, Score: 2 |
+| Sort questions by a certain Attribute | Sort by Number of Answers | What is the weather going to be like today? Answers: 5, Why is the sky blue? Answers: 2 |
+| Filter questions by a certain Category | Filter by Category: Weather | Question: What is the weather going to be like today? |
 
 ## Prerequisites
 You will need the following things properly installed on your computer.
