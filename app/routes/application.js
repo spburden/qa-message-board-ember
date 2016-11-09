@@ -6,7 +6,10 @@ export default Ember.Route.extend({
       Ember.$('.ui.sidebar').sidebar('toggle');
     },
     saveQuestion(params) {
-      this.store.createRecord('question', params).save();
+      this.store.createRecord('question', params);
+      this.transitionTo('index');
+    },
+    goHome() {
       this.transitionTo('index');
     }
   }

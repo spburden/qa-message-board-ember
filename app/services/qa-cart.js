@@ -5,7 +5,7 @@ export default Ember.Service.extend({
 
   add(question) {
     if(!(this.includes(question))){
-      this.get('questions').pushObject(question);
+      this.get('questions').pushObject(question).save();
     }
   },
   includes(question) {
